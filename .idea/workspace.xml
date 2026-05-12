@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e70b4034-7f2e-4679-8456-4cfc9ae64b5f" name="Changes" comment="Estructura inicial del proyecto">
-      <change afterPath="$PROJECT_DIR$/datos/alumnos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datos/cursos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datos/libros.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datos/materias.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datos/prestamos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datos/usuarios.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programa/alumnos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programa/cursos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programa/libros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programa/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programa/materias.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programa/prestamos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProgramaPrestamoLibros.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProgramaPrestamoLibros.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="e70b4034-7f2e-4679-8456-4cfc9ae64b5f" name="Changes" comment="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +99,7 @@
       <workItem from="1778273360732" duration="2148000" />
       <workItem from="1778318399437" duration="621000" />
       <workItem from="1778487820516" duration="223000" />
-      <workItem from="1778605255917" duration="2862000" />
+      <workItem from="1778605255917" duration="3180000" />
     </task>
     <task id="LOCAL-00001" summary="Estructura inicial del proyecto">
       <option name="closed" value="true" />
@@ -127,7 +109,31 @@
       <option name="project" value="LOCAL" />
       <updated>1778264429630</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="organización del proyecto">
+      <option name="closed" value="true" />
+      <created>1778608263205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778608263205</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml">
+      <option name="closed" value="true" />
+      <created>1778608418817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778608418817</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml">
+      <option name="closed" value="true" />
+      <created>1778608431812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778608431812</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +141,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Estructura inicial del proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estructura inicial del proyecto" />
+    <MESSAGE value="organización del proyecto" />
+    <MESSAGE value="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProgramaPrestamoLibros$main.coverage" NAME="main Coverage Results" MODIFIED="1778608107541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/programa" />
