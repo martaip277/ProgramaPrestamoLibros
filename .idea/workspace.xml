@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -43,10 +46,12 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
+    "git.auto.fetch.suggestion.counter": "1",
     "last_opened_file_path": "C:/Users/marta/Documents/Daw/PROGRAMACIÓN/Proyecto Programación/ProgramaPrestamoLibros",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
@@ -99,7 +104,7 @@
       <workItem from="1778273360732" duration="2148000" />
       <workItem from="1778318399437" duration="621000" />
       <workItem from="1778487820516" duration="223000" />
-      <workItem from="1778605255917" duration="3180000" />
+      <workItem from="1778605255917" duration="3498000" />
     </task>
     <task id="LOCAL-00001" summary="Estructura inicial del proyecto">
       <option name="closed" value="true" />
@@ -133,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778608431812</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml">
+      <option name="closed" value="true" />
+      <created>1778608660418</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1778608660418</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
