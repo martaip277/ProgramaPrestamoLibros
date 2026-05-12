@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e70b4034-7f2e-4679-8456-4cfc9ae64b5f" name="Changes" comment="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml" />
+    <list default="true" id="e70b4034-7f2e-4679-8456-4cfc9ae64b5f" name="Changes" comment="Resolviendo merge entre master y main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +106,7 @@
       <workItem from="1778273360732" duration="2148000" />
       <workItem from="1778318399437" duration="621000" />
       <workItem from="1778487820516" duration="223000" />
-      <workItem from="1778605255917" duration="3498000" />
+      <workItem from="1778605255917" duration="4127000" />
     </task>
     <task id="LOCAL-00001" summary="Estructura inicial del proyecto">
       <option name="closed" value="true" />
@@ -146,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778608660418</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Resolviendo merge entre master y main">
+      <option name="closed" value="true" />
+      <created>1778608908669</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778608908669</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +166,8 @@
     <MESSAGE value="Estructura inicial del proyecto" />
     <MESSAGE value="organización del proyecto" />
     <MESSAGE value="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml" />
+    <MESSAGE value="Resolviendo merge entre master y main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolviendo merge entre master y main" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProgramaPrestamoLibros$main.coverage" NAME="main Coverage Results" MODIFIED="1778608107541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/programa" />
