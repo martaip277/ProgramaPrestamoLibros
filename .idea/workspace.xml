@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e70b4034-7f2e-4679-8456-4cfc9ae64b5f" name="Changes" comment="Resolviendo merge entre master y main">
+      <change afterPath="$PROJECT_DIR$/datos/profesores.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programa/alumno.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programa/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programa/persona.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programa/profesor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datos/alumnos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datos/alumnos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programa/alumnos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programa/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/programa/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +54,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.profesor.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "git.auto.fetch.suggestion.counter": "1",
     "last_opened_file_path": "C:/Users/marta/Documents/Daw/PROGRAMACIÓN/Proyecto Programación/ProgramaPrestamoLibros",
     "nodejs_package_manager_path": "npm",
@@ -60,7 +70,32 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProgramaPrestamoLibros" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programa" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programa/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ProgramaPrestamoLibros" />
       <option name="ENV_FILES" value="" />
@@ -87,6 +122,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="profesor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProgramaPrestamoLibros" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programa" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programa/profesor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.profesor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -106,7 +172,9 @@
       <workItem from="1778273360732" duration="2148000" />
       <workItem from="1778318399437" duration="621000" />
       <workItem from="1778487820516" duration="223000" />
-      <workItem from="1778605255917" duration="4127000" />
+      <workItem from="1778605255917" duration="4571000" />
+      <workItem from="1778686688787" duration="1206000" />
+      <workItem from="1778767608481" duration="4192000" />
     </task>
     <task id="LOCAL-00001" summary="Estructura inicial del proyecto">
       <option name="closed" value="true" />
@@ -156,11 +224,46 @@
       <option name="project" value="LOCAL" />
       <updated>1778608908669</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Resolviendo merge entre master y main">
+      <option name="closed" value="true" />
+      <created>1778609400871</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778609400871</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Resolviendo merge entre master y main">
+      <option name="closed" value="true" />
+      <created>1778609454906</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1778609454906</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Resolviendo merge entre master y main">
+      <option name="closed" value="true" />
+      <created>1778609469950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1778609469950</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Estructura inicial del proyecto" />
@@ -170,6 +273,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="Resolviendo merge entre master y main" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/alumnos_py$profesor.coverage" NAME="profesor Coverage Results" MODIFIED="1778772877912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/programa" />
+    <SUITE FILE_PATH="coverage/alumnos_py$app.coverage" NAME="app Coverage Results" MODIFIED="1778773326355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/programa" />
     <SUITE FILE_PATH="coverage/ProgramaPrestamoLibros$main.coverage" NAME="main Coverage Results" MODIFIED="1778608107541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/programa" />
   </component>
 </project>

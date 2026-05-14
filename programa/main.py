@@ -1,5 +1,5 @@
 from login import login
-from alumnos import mostrar_alumnos
+from alumno import mostrar_alumnos
 
 def menu_principal():
     while True:
