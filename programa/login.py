@@ -2,7 +2,7 @@ def cargar_usuarios():
     usuarios = {}
     with open("../datos/usuarios.txt", "r", encoding="utf-8") as f:
         for linea in f:
-            nombre, password = linea.strip().split(",")
+            nombre, password = linea.strip().split("|")
             usuarios[nombre] = password
     return usuarios
 
@@ -20,3 +20,4 @@ def login():
     else:
         print("Usuario o contraseña incorrectos")
         return False
+

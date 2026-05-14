@@ -1,5 +1,8 @@
 from login import login
-from alumno import mostrar_alumnos
+from gestion_alumno import menu_alumnos
+from gestion_libro import menu_libros
+from gestion_prestamo import menu_prestamos
+
 
 def menu_principal():
     while True:
@@ -12,14 +15,19 @@ def menu_principal():
         opcion = input("Elige una opción: ")
 
         if opcion == "1":
-            print("Has elegido gestión de alumnos")
+            menu_alumnos()
+
         elif opcion == "2":
-            print("Has elegido gestión de libros")
+            menu_libros()
+
+
         elif opcion == "3":
-            print("Has elegido gestión de préstamos")
+            menu_prestamos()
+
         elif opcion == "4":
             print("Saliendo del programa...")
             break
+
         else:
             print("Opción no válida")
 
@@ -27,5 +35,3 @@ def menu_principal():
 if __name__ == "__main__":
     if login():
         menu_principal()
-
-
